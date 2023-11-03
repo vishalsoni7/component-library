@@ -1,0 +1,74 @@
+.alert-parent-div {
+  display: flex;
+}
+
+.alert-parent-div h1 {
+  line-height: 0;
+}
+
+.alert-parent-div h2 {
+  text-align: left;
+}
+
+.alert-child-div {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 3rem;
+}
+
+.alert-child-div-2 {
+  width: -webkit-fill-available;
+}
+
+.alert {
+  padding: 0.7rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+.alert span {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.alert-success {
+  border: 1.5px solid green;
+  color: green;
+  text-align: left;
+  background: rgba(47, 255, 61, 0.504);
+}
+
+.alert-error {
+  border: 1.5px solid crimson;
+  text-align: left;
+  color: crimson;
+  background: rgba(220, 20, 60, 0.374);
+}
+
+.alert-warning {
+  border: 1.5px solid rgb(255, 200, 0);
+  text-align: left;
+  color: rgb(143, 113, 7);
+  background: rgba(255, 221, 0, 0.621);
+}
+
+.alert-notification {
+  border: 1.5px solid rgb(18, 143, 193);
+  text-align: left;
+  color: rgb(14, 113, 152);
+  background: skyblue;
+}
+
+.alert-code-img {
+  height: 30rem;
+  object-fit: contain;
+}
+
+.alert-use {
+  width: 700px;
+  height: fit-content;
+}

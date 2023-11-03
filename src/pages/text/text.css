@@ -1,0 +1,39 @@
+.heading-child-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 3rem;
+}
+
+.text-table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.text-table th,
+.text-table td {
+  border: 1px solid #252525;
+  padding: 10px;
+  text-align: left;
+  height: 0.5rem;
+}
+
+.text-table td:hover {
+  transition: 0.3s;
+  color: #252525;
+  background-color: gainsboro;
+}
+
+.text-table th {
+  transition: 0.3s;
+  background-color: crimson;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.text-table th:hover {
+  color: #252525;
+  background-color: whitesmoke;
+}

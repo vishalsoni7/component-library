@@ -1,0 +1,141 @@
+.badge-parent-div {
+  display: flex;
+}
+
+.badge-child-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 3rem;
+}
+
+.badge-child-div-2 {
+  display: flex;
+  margin: 2rem 0;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.badge-child-div-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.badge {
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.badge-defalutBadge {
+  letter-spacing: 1px;
+}
+
+.badge-successBadge {
+  background: green;
+  color: whitesmoke;
+  border: none;
+}
+
+.badge-removedBadge {
+  background: Red;
+  color: whitesmoke;
+  border: none;
+}
+
+.badge-newBadge {
+  background: rgb(20, 166, 224);
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: whitesmoke;
+  border: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.badge-hoverBorderBadge {
+  background: rgb(20, 166, 224);
+  color: whitesmoke;
+  border: 2px solid;
+}
+
+.badge-hoverBorderBadge:hover {
+  background: rgba(135, 207, 235, 0.655);
+  border: 2px solid rgb(20, 166, 224);
+  color: rgb(2, 84, 117);
+  cursor: pointer;
+  transition: all 200ms ease-out;
+}
+
+.badge-shadowBadge {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  cursor: pointer;
+}
+
+.badge-hoverShadowBadge:hover,
+.badge-hoverShadowBadge:focus {
+  padding: 0.5rem;
+  transition: all 200ms ease-out;
+  border-radius: 5px;
+  background: #252525;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+}
+
+/* avatar - badge */
+
+.badge-avatar-img-round {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50% !important;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.badge-span-round {
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  width: 38px;
+  font-size: 32px;
+  margin-left: -40px;
+  padding: 0.3rem;
+}
+
+.badge-avatar-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.badge-span {
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  width: 38px;
+  font-size: 32px;
+  margin-left: -25px;
+  margin-top: -3px;
+  padding: 0.3rem;
+}
+
+.badge-span:hover,
+.badge-span:focus {
+  font-size: 4rem;
+  margin-left: -20px;
+  margin-top: -30px;
+  transition: all 200ms ease-out;
+}
+
+.baege-avatar-div {
+  display: flex;
+  align-items: baseline;
+  gap: 3rem;
+}

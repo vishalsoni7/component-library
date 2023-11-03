@@ -1,0 +1,31 @@
+.sideBar-parent-div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 5rem;
+  gap: 0.5rem;
+  padding: 0 2rem;
+}
+
+.sideBar-parent-div p {
+  font-weight: 600;
+}
+
+.sideBar-parent-div span {
+  font-weight: 500;
+}
+
+.sideBar-parent-div NavLink {
+  padding: 0.5rem;
+}
+
+.sideBar-child-div {
+  padding: 0.5rem;
+}
+
+.sideBar-child-div:hover {
+  background: gainsboro;
+  transition: 0.2s;
+  border-radius: 5px;
+  color: black;
+}

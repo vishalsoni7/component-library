@@ -1,0 +1,80 @@
+.header-parent-div {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 4.5rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-bottom: 2rem;
+}
+
+.header-parent-div h2 {
+  margin-left: 2rem;
+  line-height: 0;
+}
+
+.header-parent-div input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: crimson;
+  width: 16rem;
+}
+
+.searched {
+  position: absolute;
+}
+
+.searched-div {
+  position: relative;
+}
+
+.page {
+  padding: 0.5rem;
+  background: white;
+  display: flex;
+  width: 16rem;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.header-child1-div {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+.header-child1-div h3 {
+  margin: 0;
+  font-size: small;
+  cursor: pointer;
+  background: crimson;
+  color: whitesmoke;
+  padding: 0.58rem;
+  border-radius: 0px 5px 5px 0px;
+}
+.header-child1-div h3:active:hover {
+  transition: 0.3s;
+  padding: 0.45rem;
+  font-size: smaller;
+}
+
+.header-child2-div {
+  display: flex;
+  margin-right: 2rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-child2-div p {
+  margin: 0;
+  cursor: pointer;
+  font-size: large;
+}
+
+.header-heading {
+  font-family: "Pacifico", cursive;
+  font-size: x-large;
+  cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.home-parent-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-parent-div button {
+  padding: 0.7rem;
+  border: none;
+  background: crimson;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.home-parent-div button:hover {
+  transition: 0.2s;
+  background: #e34363;
+}
+
+.landing-heading {
+  font-size: x-large;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 700;
+  background: linear-gradient(to right, #252525, crimson, maroon);
+  background-size: 300% auto;
+  animation: gradientAnimation 5s linear infinite;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@keyframes gradientAnimation {
+  100% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 70%;
+  }
+}

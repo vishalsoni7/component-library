@@ -1,0 +1,159 @@
+.button-child-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 3rem;
+  text-align: left;
+}
+
+.button-child-div-2 {
+  display: flex;
+  margin: 2rem 0;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.button-primaryBtn {
+  background: #581845;
+  color: whitesmoke;
+  border: solid #581845;
+}
+
+.button-outlineBtn {
+  color: #252525;
+  border: 1.5px solid #ff5733;
+  border-radius: 50px;
+}
+
+.button-hoverAndFoucusBtn {
+  color: white;
+  background: #2c3e50;
+  border: 2px solid#2C3E50;
+  border-radius: 50px;
+}
+
+.button-hoverAndFoucusBtn:hover,
+.button-hoverAndFoucusBtn:focus {
+  transition: all 300ms ease-in-out;
+  border: 2px solid#2C3E50;
+  background: none;
+  color: #252525;
+}
+
+.button-ghostBtn {
+  border: 2px solid #3498db;
+  color: #3498db;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.button-ghostBtn:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.button-activeBtn {
+  border: 2px solid #d35400;
+  color: whitesmoke;
+  text-decoration: none;
+  background: #d35400;
+}
+
+.button-activeBtn:active {
+  padding: 0.4rem 0.7rem;
+  transition: all 100ms ease-in;
+}
+
+.button-linkBtn {
+  background: crimson;
+  color: whitesmoke;
+  text-decoration: none;
+  border: 2px solid crimson;
+  position: relative;
+  border-radius: none;
+}
+
+.button-linkBtn::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: whitesmoke;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s;
+}
+
+.button-linkBtn:hover::after {
+  transform: scaleX(1);
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: bold;
+  background: none;
+  font-size: 17px;
+}
+
+.btn-search {
+  color: maroon;
+}
+
+.btn-edit {
+  color: cadetblue;
+}
+
+.btn-delete {
+  color: crimson;
+}
+
+.btn-add {
+  color: green;
+}
+
+.float {
+  cursor: pointer;
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: none;
+  font-size: 20px;
+  border-radius: 50%;
+  color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-right: 1rem;
+}
+
+.float-search {
+  background: maroon;
+}
+
+.float-edit {
+  background: cadetblue;
+}
+
+.float-delete {
+  background: red;
+}
+
+.float-add {
+  background: green;
+}

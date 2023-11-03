@@ -1,0 +1,174 @@
+.card-parent-div {
+  display: flex;
+}
+
+.card-parent-div h2 {
+  line-height: 0;
+}
+
+.card-parent-div img {
+  object-fit: cover;
+}
+
+.card-global-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card-child-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 3rem;
+  gap: 2rem;
+}
+
+.cardwithbadge-div {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid gray;
+  flex-direction: column;
+  padding: 1rem;
+  width: 22rem;
+}
+
+.cardwithbadge-span-div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+}
+
+.cardwithbadge-div span {
+  background: orangered;
+  padding: 0.3rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.cardwithbadge-div h1 {
+  line-height: 0;
+}
+
+.cardsWithDismiss-div {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid gray;
+  flex-direction: column;
+  padding: 1rem;
+  width: 22rem;
+}
+
+.cardsWithDismiss-span-div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: end;
+}
+
+.cardsWithDismiss-div span {
+  padding: 0.3rem;
+  color: #225522;
+  font-size: 1.5rem;
+}
+
+.cardsWithDismiss-div h1 {
+  line-height: 0;
+}
+
+.cardWithTextOverlayComponent-div {
+  height: auto;
+  position: relative;
+  padding: 1.5rem;
+  width: 30rem;
+  border: 1px solid gray;
+}
+
+.cardWithTextOverlayComponent-div img {
+  display: block;
+  width: 100%;
+}
+
+.cardWithTextOverlayComponent-child-div {
+  position: absolute;
+  top: 61.5%;
+  right: 0%;
+  left: 0%;
+  background: #252525c6;
+  color: whitesmoke;
+  padding: 1rem;
+}
+
+.cardWithTextOverlayComponent-child-div h1 {
+  line-height: 1;
+}
+
+.textOnlyCard {
+  border: 1px solid gray;
+  display: flex;
+  width: 30rem;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.verticalCard-div {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid gray;
+  flex-direction: column;
+  padding: 1rem;
+  width: 15rem;
+  text-align: left;
+}
+
+.verticalCard-div h1 {
+  margin-bottom: 0.5rem;
+}
+
+.verticalCard-img-div img {
+  width: 100%;
+}
+
+.horizontalCard-div {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  padding: 0.5rem;
+  width: 30rem;
+  height: 13rem;
+  text-align: left;
+  gap: 1rem;
+}
+
+.horizontalCard-div h1 {
+  font-size: x-large;
+}
+
+.horizontalCard-img-div img {
+  width: 220px;
+  height: 200px;
+}
+
+.boxShadowCard-div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1rem;
+  width: 18rem;
+  text-align: left;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.boxShadowCard-div h1 {
+  font-size: x-large;
+  margin-bottom: 0.5rem;
+}
+
+.boxShadowCard-img-div img {
+  width: 100%;
+}
